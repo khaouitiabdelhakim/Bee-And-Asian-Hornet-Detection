@@ -1,6 +1,6 @@
-train: /Users/hajar/Documents/BeeAsianHornet_Detection/dataset/train/images
-val: /Users/hajar/Documents/BeeAsianHornet_Detection/dataset/valid/images
-test: /Users/hajar/Documents/BeeAsianHornet_Detection/dataset/test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 4  
 names: ['Asian Hornet', 'Bee', 'Hornet', 'Wasp']
