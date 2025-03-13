@@ -1,13 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /Users/hajar/Documents/BeeAsianHornet_Detection/dataset/train/images
+val: /Users/hajar/Documents/BeeAsianHornet_Detection/dataset/valid/images
+test: /Users/hajar/Documents/BeeAsianHornet_Detection/dataset/test/images
 
-nc: 1
-names: ['bees']
-
-roboflow:
-  workspace: roboflow-100
-  project: bees-jt5in
-  version: 2
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/roboflow-100/bees-jt5in/dataset/2
+nc: 4  
+names: ['Asian Hornet', 'Bee', 'Hornet', 'Wasp']
